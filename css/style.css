@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "vazir";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/Vazir-Light.eot");
+    src: url("../font/Vazir-Light.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-8 */
+        url("../font/Vazir-Light.woff2")
+        format("woff2"),
+      url("../font/Vazir-Light.ttf")
+        format("truetype"),
+      url("../font/Vazir-Light.woff")
+        format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  }
+@font-face {
+    font-family: "vazir";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../font/Vazir-Bold.eot");
+    src: url("../font/Vazir-Bold.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-8 */
+        url("../font/Vazir-Bold.woff2")
+        format("woff2"),
+      url("../font/Vazir-Bold.ttf")
+        format("truetype"),
+      url("../font/Vazir-Bold.woff")
+        format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  }
+* {
+    font-family: 'vazir';
+}
+h1.title{
+    font-weight: 900;
+}
+/* header */
+header {
+    background-color: #ff7d04;
+    display: flex;
+    justify-content: center;
+}
+header h6{color: white;}
+.form-group{direction: rtl;}
+.header-img{display: flex;
+justify-content: center;}
+header h1{color: white;}
+header a{
+    color: #444444;
+    text-decoration: none;
+    float: left;
+}
+header a:hover{color: white;}
+header span{width: 100%;}
+header p {
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: justify;
+}
+/* header */
+
+/* input form */
+.bg-arrpw-right{
+    background-image: url(../img/arrow-right.png);
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    line-height: unset;
+    padding-right: 35px !important;
+}
+/* input form */
+
+/* my-cards */
+.my-cards {
+    background-color: white;
+}
+.three-cards img{
+    height: 130px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.bg-blue,
+.bg-orange,
+.bg-pink {
+    color: white;
+    padding: 10px 50px 20px;
+}
+.my-cards h3{color: black;}
+.bg-pink{background: linear-gradient(90deg,#ff0566,#fa7236);}
+.bg-orange{ background: linear-gradient(90deg,#ff7b02,#ffcb52);}
+.bg-blue{ background: linear-gradient(90deg,#4a77d6,#5dc9dd);}
+.my-cards .card{
+    display: flex;
+    justify-content: center;
+    border: none;
+    height: 350px;
+}
+
+.my-cards .my-cards-btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    color :#10b2d6;
+    margin-top: 30px;
+    /* margin: auto; */
+    border: 1px solid #10b2d6;
+}
+.my-cards .my-cards-btn:hover{
+    color: white;
+    background-color: #10b2d6;
+}
+.my-cards img {
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 11% ;
+    padding-right: 11% ;
+    height: 130px;
+    object-fit: contain;
+}
+.card.shadow{
+    box-shadow: 0 0 1rem rgba(0,0,0,.1)!important;
+}
+/* my-cards */
+
+
+/* footer */
+.my-footer {
+    background-color: #292d36;
+    color: white;
+    display: flex;
+}
+.my-footer-download-app {direction: rtl;}
+.footer-input {
+    width: 330px;
+    height: 50px;
+    border-radius: 25px;
+}
+/* .social-media ul {margin: auto;} */
+.social-media li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+.social-media a {text-decoration: none;}
+.my-footer p {text-align: justify ;
+direction: rtl;
+} 
+/* footer */
+@media only screen and (min-width :810px){
+    .bg-blue ,
+    .bg-orange,
+    .bg-pink {
+        margin-top: -60px;
+        height: 300px;
+        padding: 10px;
+        margin-top: -60px;
+    }
+    /* .my-cards img {width: auto;} */
+    header p{margin-bottom: 100px;}
+    .my-footer p { direction: rtl;}
+    .card-h4-p {height: 130px;}
+    .my-cards .my-cards-btn {margin-top: 0px;}
+    .footer-input {width:250px;}
+}
